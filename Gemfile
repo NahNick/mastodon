@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '>= 3.0.0'
 
 gem 'puma', '~> 6.3'
-gem 'rails', '~> 7.0'
+gem 'rails', '~> 7.2', '>= 7.2.0'
 gem 'sprockets', '~> 3.7.2'
 gem 'thor', '~> 1.2'
 gem 'rack', '~> 2.2.7'
@@ -188,7 +188,7 @@ group :development, :test do
   gem 'test-prof'
 
   # RSpec runner for rails
-  gem 'rspec-rails', '~> 6.0'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
 end
 
 group :production do
